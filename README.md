@@ -56,15 +56,6 @@ pip install pandas scikit-learn matplotlib seaborn
 
 ---
 
-## Usage
-
-1. Clone this repository
-2. Place the CSV dataset in the working directory
-3. Open and run the Jupyter Notebook step by step
-4. Review confusion matrices and evaluation metrics to analyze performance
-
----
-
 ## Future Work
 
 * Hyperparameter tuning with `GridSearchCV`
