@@ -7,7 +7,7 @@ This project is an NLP pipeline for **language detection** on short text samples
 ## Features
 
 * Clean and explore language data
-* TF-IDF vectorization with character n-grams
+* TF-IDF vectorization with character-level n-grams
 * Multinomial Naive Bayes classifier
 * Logistic Regression classifier
 * LinearSVC classifier
@@ -21,6 +21,7 @@ This project is an NLP pipeline for **language detection** on short text samples
 * Approximately 10,000 text samples in different languages
 * Each sample includes the text and its language label
 * Classes are balanced, with roughly equal examples per language
+* Source: [Language Identification Dataset on Kaggle](https://www.kaggle.com/datasets/zarajamshaid/language-identification-datasst)
 
 ---
 
@@ -64,7 +65,7 @@ pip install pandas scikit-learn matplotlib seaborn
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 * Hyperparameter tuning with `GridSearchCV`
 * Trying other classifiers (e.g., Random Forest, XGBoost)
