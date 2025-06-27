@@ -18,7 +18,7 @@ This project is an NLP pipeline for **language detection** on short text samples
 
 ## Dataset
 
-* Approximately 10,000 text samples in different languages
+* Each language in this dataset contains 1000 rows/paragraphs.
 * Each sample includes the text and its language label
 * Classes are balanced, with roughly equal examples per language
 * Source: [Language Identification Dataset on Kaggle](https://www.kaggle.com/datasets/zarajamshaid/language-identification-datasst)
